@@ -4,6 +4,30 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+.u-custom-menu ul {
+  display: flex;
+  flex-direction: column; /* Los pone en columna */
+  gap: 20px;              /* Espacio entre cada li */
+  padding: 0;
+  margin: 0;
+  list-style: none;       /* Opcional: quita los puntitos */
+}
+
+.u-custom-menu {
+  max-width: 100%;          /* El contenedor no se sale del espacio */
+  overflow: hidden;         /* Evita desbordes */
+}
+
+.u-custom-menu .u-nav {
+  /*font-size: clamp(12px, 2.5vw, 20px); /* Letra adaptable */
+  word-wrap: break-word;               /* Rompe palabras largas */
+  overflow-wrap: break-word;           /* Compatible con navegadores modernos */
+  white-space: normal;                 /* Permite saltos de línea */
+  text-align: center;                  /* Opcional: centra el texto */
+  max-width: 100%;         
+  margin-bottom: 50px;                 /* Espacio debajo de cada li */            /* Se limita al ancho del div */
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -18424,6 +18448,7 @@ p {
 }
 .u-align-center {
   text-align: center;
+
 }
 @media (min-width: 1400px) {
   .u-align-center-xxl {
