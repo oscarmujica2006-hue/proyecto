@@ -4,15 +4,6 @@
  * Copyright 2014-2021 Froala Labs
  */
 
-.u-custom-menu ul {
-  display: flex;
-  flex-direction: column; /* Los pone en columna */
-  gap: 20px;              /* Espacio entre cada li */
-  padding: 0;
-  margin: 0;
-  list-style: none;       /* Opcional: quita los puntitos */
-}
-
 .u-custom-menu {
   max-width: 100%;          /* El contenedor no se sale del espacio */
   overflow: hidden;         /* Evita desbordes */
