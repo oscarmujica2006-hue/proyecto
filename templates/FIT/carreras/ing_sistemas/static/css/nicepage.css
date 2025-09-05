@@ -84,14 +84,11 @@
 #carousel_e56e{
   background-color: white;
 }
-=======
 /*begin-commonstyles library*//*!
  * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
->>>>>>> 24b94effa3746b02d0715aa6bce39c675aada841
 .u-custom-menu {
   max-width: 100%;          /* El contenedor no se sale del espacio */
   overflow: hidden;         /* Evita desbordes */
