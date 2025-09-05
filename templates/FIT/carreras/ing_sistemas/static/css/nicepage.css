@@ -1,24 +1,93 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
-
-.u-custom-menu ul {
-  display: flex;
-  flex-direction: column; /* Los pone en columna */
-  gap: 20px;              /* Espacio entre cada li */
-  padding: 0;
-  margin: 0;
-  list-style: none;       /* Opcional: quita los puntitos */
+.u-section-2 {
+  min-height: auto !important;
+  height: auto !important;
 }
 
+#sec-65eb, #sec-65eb .u-sheet-1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mis_vis_per p {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;   
+  text-align: justify;            
+}
+#sec-65eb {
+  padding: 0 !important;
+}
+
+#sec-65eb .u-sheet-1 {
+  padding: 0 !important;
+  margin: 0 auto !important;  /* centra de nuevo */
+  max-width: 1200px;          /* define un ancho */
+}
+#sec-65eb,
+#sec-65eb .u-sheet-3 {
+  margin: 0;      /* quita márgenes externos */
+  padding: 0;  
+  border:0px;   
+}
+#titulo_pagina {
+  border-style: hidden;
+  padding: 10px; 
+  color: white;
+  background-color: rgb(11, 0, 79);
+  border: 2px ;   
+  display: flex;          
+  justify-content: center; 
+  align-items: center;      
+  border-color:white;
+  height: 150px;  
+  box-shadow: #000000;
+}
+#carousel_78cf{
+  background-color: white;
+  justify-content: center;
+}
+
+#titulo {
+  text-align: center;
+  /* white-space: nowrap; */
+  font-size: clamp(20px, 5vw, 60px);       /* centra texto dentro del propio h1/h2 */
+}
+.mis_vis_per {
+
+  box-shadow: 
+    0 4px 15px rgb(0, 0, 0), /* sombra clara */
+    0 4px 10px rgba(44, 1, 153, 0.582);      
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+  padding: 15px 20px !important;   
+  margin: 10px;                  
+  max-width: 95%;         
+  box-sizing: border-box;    
+}
+
+
+.mis_vis_per:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 10px 25px rgba(0, 124, 155, 0.3),
+    0 0 20px rgb(21, 0, 99);
+}
+#fon_pes2{
+  box-shadow: 
+    0 4px 15px rgb(0, 0, 0),
+    0 4px 10px rgba(44, 1, 153, 0.582);
+}
+#carousel_e56e{
+  background-color: white;
+}
 .u-custom-menu {
   max-width: 100%;          /* El contenedor no se sale del espacio */
   overflow: hidden;         /* Evita desbordes */
 }
 
-.u-custom-menu .u-nav {
+.u-custom-menu .nav-new {
   /*font-size: clamp(12px, 2.5vw, 20px); /* Letra adaptable */
   word-wrap: break-word;               /* Rompe palabras largas */
   overflow-wrap: break-word;           /* Compatible con navegadores modernos */
@@ -119,27 +188,6 @@
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow: visible; }
-/*  .fr-view[dir="rtl"] blockquote {
-    border-left: none;
-    border-right: solid 2px #5E35B1;
-    margin-right: 0;
-    padding-right: 5px;
-    padding-left: 0; }
-    .fr-view[dir="rtl"] blockquote blockquote {
-      border-color: #00BCD4; }
-      .fr-view[dir="rtl"] blockquote blockquote blockquote {
-        border-color: #43A047; }
-  .fr-view blockquote {
-    border-left: solid 2px #5E35B1;
-    margin-left: 0;
-    padding-left: 5px;
-    color: #5E35B1; }
-    .fr-view blockquote blockquote {
-      border-color: #00BCD4;
-      color: #00BCD4; }
-      .fr-view blockquote blockquote blockquote {
-        border-color: #43A047;
-        color: #43A047; } */
   .fr-view span.fr-emoticon {
     font-weight: normal;
     font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -13224,11 +13272,14 @@ img.u-image,
   min-height: -webkit-fit-content;
   min-height: fit-content;
   max-width: 100%;
+  margin: 20px;
 }
 .u-layout-col {
   flex-direction: column;
   min-height: -webkit-fit-content;
   min-height: fit-content;
+  
+
 }
 .u-layout-row {
   flex-direction: row;
@@ -22962,6 +23013,7 @@ a.pswp__share--download:hover {
   max-height: 90vh !important;
   overflow-y: auto;
   scrollbar-width: thin;
+  
 }
 .u-dialog-close-button {
   position: absolute;
@@ -46423,134 +46475,11 @@ a.u-link.u-text-hover-color-var:hover {
 
         .u-body
         {
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         }
 
         /** common-rules **/
