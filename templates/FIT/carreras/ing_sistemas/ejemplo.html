@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pestañas Responsivas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .accordion {
+      width: 100%;
+      max-width: 400px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .tab {
+      border-bottom: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tab h3 {
+      margin: 0;
+      padding: 15px;
+      background: #003366; /* azul intenso */
+      color: #fff;
+      font-size: 18px;
+      transition: background 0.3s ease;
+    }
+
+    .tab:hover h3 {
+      background: #660000; /* rojo oscuro */
+    }
+
+    .tab .content {
+      max-height: 0;
+      opacity: 0;
+      padding: 0 15px;
+      overflow: hidden;
+      background: #fafafa;
+      line-height: 1.5;
+      transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+    }
+
+    .tab.active .content,
+    .tab:hover .content {
+      max-height: 200px;
+      opacity: 1;
+      padding: 15px;
+    }
+
+    /* 📱 Responsive ajustes */
+    @media (max-width: 600px) {
+      body {
+        align-items: flex-start;
+      }
+
+      .accordion {
+        max-width: 100%;
+      }
+
+      .tab h3 {
+        font-size: 16px;
+        padding: 12px;
+      }
+
+      .tab .content {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="accordion">
+    <div class="tab">
+      <h3>Pestaña 1</h3>
+      <div class="content">
+        <p>Contenido de la primera pestaña. Aquí puedes poner texto, imágenes o lo que quieras.</p>
+      </div>
+    </div>
+    <div class="tab">
+      <h3>Pestaña 2</h3>
+      <div class="content">
+        <p>Contenido de la segunda pestaña. Al pasar el cursor o tocar, las demás se cierran.</p>
+      </div>
+    </div>
+    <div class="tab">
+      <h3>Pestaña 3</h3>
+      <div class="content">
+        <p>Contenido de la tercera pestaña. Solo una pestaña puede estar desplegada a la vez.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 📱 Manejo con clic/tap (móviles y PCs)
+    const tabs = document.querySelectorAll(".tab");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        // Cierra todas
+        tabs.forEach(t => t.classList.remove("active"));
+        // Abre solo el que se tocó
+        tab.classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>

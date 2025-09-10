@@ -1,4 +1,4 @@
-
+/* 
 .u-section-2 {
   min-height: auto !important;
   height: auto !important;
@@ -11,32 +11,27 @@
   box-shadow: none !important;
 }
 
-.mis_vis_per p {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;   
-  text-align: justify;            
-}
+
 #sec-65eb {
   padding: 0 !important;
 }
 
 #sec-65eb .u-sheet-1 {
   padding: 0 !important;
-  margin: 0 auto !important;  /* centra de nuevo */
-  max-width: 1200px;          /* define un ancho */
+  margin: 0 auto !important;  
+  max-width: 1200px;         
 }
 #sec-65eb,
 #sec-65eb .u-sheet-3 {
-  margin: 0;      /* quita márgenes externos */
+  margin: 0;
   padding: 0;  
   border:0px;   
-}
+} */
 #titulo_pagina {
   border-style: hidden;
   padding: 10px; 
   color: white;
-  background-color: rgb(11, 0, 79);
+  background-color: rgb(14, 1, 126);
   border: 2px ;   
   display: flex;          
   justify-content: center; 
@@ -53,33 +48,19 @@
 
 #titulo {
   text-align: center;
-  /* white-space: nowrap; */
-  font-size: clamp(20px, 5vw, 60px);       /* centra texto dentro del propio h1/h2 */
-}
-.mis_vis_per {
-
-  box-shadow: 
-    0 4px 15px rgb(0, 0, 0), /* sombra clara */
-    0 4px 10px rgba(44, 1, 153, 0.582);      
-  transition: transform 0.3s, box-shadow 0.3s;
-  border-radius: 15px;
-  padding: 15px 20px !important;   
-  margin: 10px;                  
-  max-width: 95%;         
-  box-sizing: border-box;    
+  font-size: clamp(20px, 5vw, 60px);     
 }
 
-
-.mis_vis_per:hover {
-  transform: translateY(-5px);
-  box-shadow: 
-    0 10px 25px rgba(0, 124, 155, 0.3),
-    0 0 20px rgb(21, 0, 99);
-}
 #fon_pes2{
   box-shadow: 
     0 4px 15px rgb(0, 0, 0),
-    0 4px 10px rgba(44, 1, 153, 0.582);
+    0 4px 10px rgb(50, 1, 174);
+  border-radius: 500px;
+  padding: 10px;
+
+}
+#img_dic_sis{
+  justify-content:center ;
 }
 #carousel_e56e{
   background-color: white;
@@ -95,13 +76,12 @@
 }
 
 .u-custom-menu .nav-new {
-  /*font-size: clamp(12px, 2.5vw, 20px); /* Letra adaptable */
-  word-wrap: break-word;               /* Rompe palabras largas */
-  overflow-wrap: break-word;           /* Compatible con navegadores modernos */
-  white-space: normal;                 /* Permite saltos de línea */
-  text-align: center;                  /* Opcional: centra el texto */
+  word-wrap: break-word;               
+  overflow-wrap: break-word;           
+  white-space: normal;               
+  text-align: center;                
   max-width: 100%;         
-  margin-bottom: 50px;                 /* Espacio debajo de cada li */            /* Se limita al ancho del div */
+  margin-bottom: 50px;              
 }
 
 .fr-clearfix::after {
