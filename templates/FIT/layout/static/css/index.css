@@ -1465,10 +1465,10 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/female-english-teacher-doing-her.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/feria.webp");
 }
 
-.u-section-5 .u-container-layout-2 {
+/* .u-section-5 .u-container-layout-2 {
   padding: 0;
 }
 
@@ -1481,12 +1481,12 @@
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55));
   background-size: cover;
-}
+} */
 
-.u-section-5 .u-container-layout-3 {
+/* .u-section-5 .u-container-layout-3 {
   padding: 18px 30px 30px;
-}
-
+} */
+/* 
 .u-section-5 .u-text-3 {
   margin: 0;
 }
@@ -1507,7 +1507,7 @@
   --radius: 5px;
   font-size: 0.75rem;
   margin: 19px auto 0 0;
-}
+} */
 
 .u-section-5 .u-image-2 {
   --animation-custom_in-translate_x: 0px;
@@ -1515,7 +1515,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/teacher-talking-with-her-student.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/becas.webp");
 }
 
 .u-section-5 .u-container-layout-4 {
@@ -1565,7 +1565,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/medium-shot-woman-holding-docume.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../img/reunion.webp");
 }
 
 .u-section-5 .u-container-layout-6 {
@@ -1615,7 +1615,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/vertical-shot-freckled-brunette-young-woman-sits-home-with-credit-card_273609-19077.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/vicente.webp');
   background-position: 50% 50%;
 }
 
@@ -1666,7 +1666,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/woman-working-office_144627-4422.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/fit_1.webp');
   background-position: 50% 50%;
 }
 
@@ -1717,7 +1717,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/virtual-classroom-study-space_23.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/fit_2.webp');
   background-position: 50% 50%;
 }
 
@@ -1768,11 +1768,11 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/group-three-young-good-looking-s.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/fit_3.webp');
   background-position: 50% 50%;
 }
 
-.u-section-5 .u-container-layout-14 {
+/* .u-section-5 .u-container-layout-14 {
   padding: 0;
 }
 
@@ -1811,7 +1811,7 @@
   --radius: 5px;
   font-size: 0.75rem;
   margin: 19px auto 0 0;
-}
+} */
 
 .u-section-5 .u-image-8 {
   --animation-custom_in-translate_x: 0px;
@@ -1819,7 +1819,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/smiley-boy-using-laptop-headphon.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/fit_4.webp');
   background-position: 50% 50%;
 }
 
@@ -1886,251 +1886,6 @@
     height: auto;
   }
 
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 85px;
-  }
-
-  .u-section-5 .u-list-1 {
-    width: 940px;
-  }
-
-  .u-section-5 .u-repeater-1 {
-    grid-gap: 16px;
-    min-height: 594px;
-  }
-
-  .u-section-5 .u-image-1 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-5 .u-group-2 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-3 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-image-2 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-5 .u-group-3 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-5 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-image-3 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-5 .u-group-4 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-7 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-group-5 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-9 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-group-6 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-11 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-group-7 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-13 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-group-8 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-15 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .u-section-5 .u-group-9 {
-    background-position: 50% 50%, 50% 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    height: auto;
-  }
-
-  .u-section-5 .u-container-layout-17 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 95px;
-  }
-
-  .u-section-5 .u-text-2 {
-    width: 660px;
-  }
-
-  .u-section-5 .u-list-1 {
-    width: 720px;
-  }
-
-  .u-section-5 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 8px));
-    grid-auto-columns: calc(50% - 8px);
-    min-height: 1820px;
-  }
-
-  .u-section-5 .u-container-layout-2 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-6 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-8 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-10 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-12 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-14 {
-    padding-bottom: 27px;
-  }
-
-  .u-section-5 .u-container-layout-16 {
-    padding-bottom: 27px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 80px;
-    padding-left: 55px;
-    padding-right: 55px;
-  }
-
-  .u-section-5 .u-text-2 {
-    width: 520px;
-  }
-
-  .u-section-5 .u-list-1 {
-    width: 540px;
-  }
-
-  .u-section-5 .u-repeater-1 {
-    grid-template-columns: 100%;
-    grid-auto-columns: calc(100% + 0px);
-  }
-
-  .u-section-5 .u-container-layout-3 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-5 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-7 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-9 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-11 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-13 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-15 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .u-section-5 .u-container-layout-17 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 70px;
-    padding-right: 35px;
-    padding-left: 30px;
-  }
-
-  .u-section-5 .u-text-2 {
-    width: 320px;
-  }
-
-  .u-section-5 .u-list-1 {
-    width: 340px;
-  }
 
   .u-section-5 .u-repeater-1 {
     grid-auto-columns: 100%;
@@ -2507,7 +2262,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("images/civil.webp");
+  background-image: url("../img/civil.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -2562,7 +2317,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("images/financiera.webp");
+  background-image: url("../img/financiera.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -2618,7 +2373,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("images/logo-biomedica.webp");
+  background-image: url("../img/logo-biomedica.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -2672,7 +2427,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("images/arquitectura.png");
+  background-image: url("../img/arquitectura.png");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -2727,7 +2482,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("images/Logo-industria.webp");
+  background-image: url("../img/Logo-industria.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
