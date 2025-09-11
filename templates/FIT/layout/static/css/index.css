@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/facultad_ing.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/facultad_ing.webp');
 }
 
 .u-section-1 .u-sheet-1 {
@@ -2427,7 +2427,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("../img/arquitectura.png");
+  background-image: url("../img/arquitectura.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
