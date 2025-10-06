@@ -1,2 +1,298 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./"></head><body></body></html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestras Facultades</title>
+    <style>
+        .u-section-7 {
+          background-image: none;
+        }
+
+        .u-section-7 .u-sheet-1 {
+          min-height: 1104px;
+        }
+
+        .u-section-7 .u-text-1 {
+          --animation-custom_in-translate_x: 0px;
+          --animation-custom_in-translate_y: 0px;
+          --animation-custom_in-opacity: 0;
+          --animation-custom_in-rotate: 0deg;
+          --animation-custom_in-scale: 0.3;
+          margin: 50px auto 0;
+        }
+
+        .u-section-7 .u-list-1 {
+          grid-template-rows: repeat(1, auto);
+          grid-auto-rows: 100%;
+          margin: 50px 0 0;
+        }
+
+        .u-section-7 .u-repeater-1 {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 22px;
+          min-height: 774px;
+        }
+
+        .u-section-7 .u-list-item {
+          background-image: none;
+          --animation-custom_in-translate_x: 0px;
+          --animation-custom_in-translate_y: 0px;
+          --animation-custom_in-opacity: 0;
+          --animation-custom_in-rotate: 0deg;
+          --animation-custom_in-scale: 1;
+          margin-top: 0;
+          margin-bottom: 0;
+          --radius: 5px;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .u-section-7 .u-container-layout {
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+        }
+
+        .u-section-7 .custom-expanded {
+          height: 210px;
+          width: 210px;
+          margin: 0 auto;
+          background-position: 50% 50%;
+          background-size: cover;
+          border-radius: 50%;
+
+          /* Animaciones personalizadas */
+          --animation-custom_in-translate_x: 0px;
+          --animation-custom_in-translate_y: 0px;
+          --animation-custom_in-opacity: 0;
+          --animation-custom_in-rotate: 0deg;
+          --animation-custom_in-scale: 0.3;
+        }
+
+        .u-section-7 .u-text-4, .u-section-7 .u-text-6, .u-section-7 .u-text-8, 
+        .u-section-7 .u-text-10, .u-section-7 .u-text-12 {
+          font-size: 1.375rem;
+          font-weight: 700;
+          margin: 30px 0 0;
+          text-align: center;
+        }
+
+        .u-section-7 .u-text-14 {
+          --animation-custom_in-translate_x: 0px;
+          --animation-custom_in-translate_y: 0px;
+          --animation-custom_in-opacity: 0;
+          --animation-custom_in-rotate: 0deg;
+          --animation-custom_in-scale: 0.3;
+          margin: 30px auto 60px;
+        }
+
+        .u-section-7 .u-btn-1 {
+          border-style: solid;
+          padding: 0;
+        }
+
+        .u-custom-color-2 {
+          background-color: #0285a9;
+        }
+
+        /* Estilos para las imágenes específicas */
+        .u-image-1 {
+          background-image: url('FIT/layout/static/img/fit.webp');
+        }
+
+        .u-image-2 {
+          background-image: url('static/images/aceaf');
+        }
+
+        .u-image-3 {
+          background-image: url('../images/aceaf.webp');
+        }
+
+        .u-image-4 {
+          background-image: url('../images/acbn.webp');
+        }
+
+        .u-image-5 {
+          background-image: url('../images/acjyp.webp');
+        }
+
+        .u-image-6 {
+          background-image: url('../images/acyh.webp');
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 1199px) {
+          .u-section-7 .u-list-1 {
+            margin-right: initial;
+            margin-left: initial;
+          }
+
+          .u-section-7 .u-repeater-1 {
+            grid-template-columns: repeat(3, 1fr);
+            min-height: 638px;
+            grid-gap: 22px;
+          }
+        }
+
+        @media (max-width: 991px) {
+          .u-section-7 .u-repeater-1 {
+            grid-template-columns: repeat(2, 1fr);
+            min-height: 1100px;
+          }
+        }
+
+        @media (max-width: 767px) {
+          .u-section-7 .u-repeater-1 {
+            grid-template-columns: 1fr;
+          }
+
+          .u-section-7 .u-container-layout {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+        }
+
+        @media (max-width: 575px) {
+          .u-section-7 .u-repeater-1 {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        /* Estilos para el modal */
+        .image-modal {
+          display: none;
+          position: fixed;
+          z-index: 1000;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+          margin: auto;
+          display: block;
+          max-width: 80%;
+          max-height: 80%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        .close-btn {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="u-align-center u-clearfix u-container-align-center u-custom-color-2 u-section-7" id="sec-4b1a">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000">NUESTRAS FACULTADES</h2>
+        <div class="u-expanded-width u-layout-grid u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <!-- Facultad 1 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-white u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                <div alt=""
+                  class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-1"
+                  data-image-width="626"
+                  data-image-height="417"
+                  data-animation-name="customAnimationIn"
+                  data-animation-duration="1250"
+                  data-animation-delay="250">
+                </div>
+                <h5 class="u-align-center u-text u-text-4">
+                  <a href="FIT/fit.html" target="_blank" style="color: inherit; text-decoration: none;">
+                    ÁREA DE INGENIERÍA Y TECNOLOGÍA
+                  </a>
+                </h5>
+              </div>
+            </div>
+            
+            <!-- Facultad 2 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                <div alt="" class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-2" data-image-width="626" data-image-height="417" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"></div>
+                <h5 class="u-align-center u-text u-text-4">ÁREA DE CIENCIAS DE LA SALUD</h5>
+              </div>
+            </div>
+            
+            <!-- Facultad 3 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                <div alt="" class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-3" data-image-width="626" data-image-height="417" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"></div>
+                <h5 class="u-align-center u-text u-text-6">ÁREA DE CIENCIAS ECONÓMICAS ADMINISTRATIVAS Y FINANCIERA</h5>
+              </div>
+            </div>
+            
+            <!-- Facultad 4 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                <div alt="" class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-4" data-image-width="626" data-image-height="417" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"></div>
+                <h5 class="u-align-center u-text u-text-8">ÁREA DE CIENCIAS BIOLÓGICAS Y NATURALES</h5>
+              </div>
+            </div>
+            
+            <!-- Facultad 5 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-5" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+                <div alt="" class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-5" data-image-width="626" data-image-height="417" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"></div>
+                <h5 class="u-align-center u-text u-text-10">ÁREA DE CIENCIAS POLÍTICAS Y JURÍDICAS</h5>
+              </div>
+            </div>
+            
+            <!-- Facultad 6 -->
+            <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-6" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-6">
+                <div alt="" class="custom-expanded u-image u-image-circle u-preserve-proportions u-image-6" data-image-width="626" data-image-height="417" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"></div>
+                <h5 class="u-align-center u-text u-text-12">ÁREA DE CIENCIAS SOCIALES Y HUMANÍSTICAS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-align-center u-text u-text-default u-text-14" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="700">Imagen de <a href="https://www.freepik.com" class="u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-link u-button-style u-none u-text-body-alt-color u-btn-1" target="_blank">Freepik</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Modal para la imagen para que se vea en grande -->
+    <div id="imageModal" class="image-modal">
+      <span class="close-btn" onclick="closeImageModal()">×</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+      // Función para abrir el modal con la imagen
+      function openImageModal(imgSrc) {
+        document.getElementById('modalImage').src = imgSrc;
+        document.getElementById('imageModal').style.display = 'block';
+      }
+
+      // Función para cerrar el modal
+      function closeImageModal() {
+        document.getElementById('imageModal').style.display = 'none';
+      }
+
+      // Cerrar el modal al hacer clic fuera de la imagen
+      window.onclick = function(event) {
+        const modal = document.getElementById('imageModal');
+        if (event.target === modal) {
+          closeImageModal();
+        }
+      }
+    </script>
+</body>
+</html>
