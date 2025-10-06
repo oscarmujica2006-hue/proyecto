@@ -1,16 +1,17 @@
- .u-section-1 {
-  background-image: url("images/af6e2e92c9f21b9db4f494e1dc40b3b7.jpeg");
+.u-section-1 {
+  background-image: linear-gradient(to right, #1e3c72, #b30000); /* Azul a rojo */
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 641px;
+  display: flex;
+  align-items: center;
 }
 
 .u-section-1 .u-group-1 {
-  width: 746px;
-  min-height: 491px;
-  margin: 30px auto 65px 0;
+  width: 100%;
+  text-align: center;
 }
 
 .u-section-1 .u-container-layout-1 {
