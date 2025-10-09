@@ -3146,17 +3146,17 @@
 
 .u-section-7 .u-image-1 {
   height: 210px;
-  width: 210px;
-  margin: 0 auto;
-  background-position: 50% 50%;
-
-  /* Animaciones personalizadas (si las necesitas) */
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  width: 210px;
+  background-image: url("../../FIT/layout/static/img/fit.webp");
+  background-position: 50% 50%;
+  margin: 0 auto;
 }
+
 .u-section-7 .u-text-2 {
   font-size: 1.375rem;
   margin: 30px 0 0;
@@ -3203,7 +3203,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("static/images/aceaf");
+  background-image: url("../images/acbn.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -3314,7 +3314,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   width: 210px;
-  background-image: url("../images/acbn.webp");
+  background-image: url("../images/aceaf.webp");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -3546,9 +3546,7 @@
     font-size: 1rem;
   }
 }
-.u-custom-color-2 {
-  background-color: #0285a9;
-}
+
 @media (max-width: 575px) {
   .u-section-7 .u-repeater-1 {
     grid-auto-columns: 100%;
